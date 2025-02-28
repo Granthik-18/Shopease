@@ -1,14 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* .noto-serif-display-<uniquifier > {
+  font-family: "Noto Serif Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+} */
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Noto Serif Display", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "Hello Paris Serif Regular";
+  src: url("https://db.onlinewebfonts.com/t/af9dbbacda3360d434dcce8ab8b6c38f.eot");
+  src: url("https://db.onlinewebfonts.com/t/af9dbbacda3360d434dcce8ab8b6c38f.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/af9dbbacda3360d434dcce8ab8b6c38f.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/af9dbbacda3360d434dcce8ab8b6c38f.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/af9dbbacda3360d434dcce8ab8b6c38f.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/af9dbbacda3360d434dcce8ab8b6c38f.svg#Hello Paris Serif Regular")
+      format("svg");
 }
 
 code {
